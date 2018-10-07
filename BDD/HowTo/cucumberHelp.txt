@@ -1,0 +1,22 @@
+Fnode_modules/.bin/cucumberjs --help
+
+   Usage: cucumberjs [options] [<DIR|FILE[:LINE]>...]
+
+
+   Options:
+
+     -v, --version                  output the version number
+     -b, --backtrace                show full backtrace for errors
+     --compiler <EXTENSION:MODULE>  require files with the given EXTENSION after requiring MODULE (repeatable)
+     -d, --dry-run                  invoke formatters without executing steps
+     --fail-fast                    abort the run on first failure
+     -f, --format <TYPE[:PATH]>     specify the output format, optionally supply PATH to redirect formatter output (repeatable)
+     --format-options <JSON>        provide options for formatters (repeatable)
+     --name <REGEXP>                only execute the scenarios with name matching the expression (repeatable)
+     --no-strict                    succeed even if there are pending or undefined steps
+     -p, --profile <NAME>           specify the profile to use (repeatable)
+     -r, --require <FILE|DIR>       require files before executing features (repeatable)
+     -t, --tags <EXPRESSION>        only execute the features or scenarios with tags matching the expression
+     --world-parameters <JSON>      provide parameters that will be passed to the world constructor (repeatable)
+     -h, --help                     output usage information
+   For more details please visit https://github.com/cucumber/cucumber-js#cli

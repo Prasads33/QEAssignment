@@ -1,0 +1,23 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "cucumberjs tests",
+  "main": "index.js",
+  "devDependencies": {
+    "cucumber": "^2.3.1",
+    "cucumber-html-reporter": "^4.0.4",
+    "gulp": "^4.0.0",
+    "selenium-webdriver": "^3.6.0"
+  },
+  "_comment": "in json file if you add _comment it will act as a comment, to run scripts you need to use npm run-script scriptname, cucumberjs ./features/name.feature -f json:test/report/cucumber_report.json",
+  "scripts": {
+    "test": "cucumberjs",
+    "test1": "cucumberjs -f progress -f summary:summary.txt",
+    "test2": "cucumberjs --format usage-json:./reports/cucumber-usage-report.json",
+    "test3": "cucumberjs --format usage",
+    "test4": "cucumberjs --format usage --tags @tag2",
+    "test5": "cucumberjs --format json:./reports/cucumber-json-report.json"
+  },
+  "author": "prasad",
+  "license": "ISC"
+}
