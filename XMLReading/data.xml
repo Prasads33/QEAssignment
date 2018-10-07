@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <graph>
+        <node>
+            <IT>Company 1</IT>
+            <Name>Wipro</Name>
+        </node>
+        <node>
+            <IT>Company 2</IT>
+            <Name>TCS</Name>
+        </node>
+        <node>
+            <IT>Company 3</IT>
+            <Name>Capgemeni</Name>
+        </node>
+        <node>
+            <IT>Company 4</IT>
+            <Name>Cognizant</Name>
+        </node>
+    </graph>
+</root>
